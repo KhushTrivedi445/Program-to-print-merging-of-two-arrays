@@ -11,12 +11,12 @@ int main () {
     int a[n];
     int b[x];
 
-     printf("Enter first array :");
+     printf("Enter first array :"); 
      for(int i=0;i<n;i++){
-        scanf("%d",&a[i]);
+        scanf("%d",&a[i]); 
      }
 
-     printf("Enter second array :");
+     printf("Enter second array :");   // In this the loop we store the elements of b[x] in a[x] by increasing the size by a[n+i]
      for(int i=0;i<x;i++){
         scanf("%d",&b[i]);
      }
